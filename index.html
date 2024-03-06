@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-B6q6lWHX5VjH3s1f9+g1C/X0CxPnGcQl89yFV3h4QqN4R2E+O95jmu4B+LiQ+oN2KRlO3N9tbNjYxI3WOR4elg==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Esdras Jales Developer</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="menu-container" >
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href=".contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="titulo">
+            <h1>Esdras Jales</h1>
+            <p>Desenvolvedor Web</p>
+        </section>
+
+        <section id="sobre" class="sobremim">
+            <h2>Sobre mim:</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci cupiditate ex soluta mollitia qui animi. Obcaecati eveniet voluptatum quia neque quaerat quasi quae suscipit, dolore architecto dolorem ipsum veritatis natus.</p>
+        </section>
+
+        <section id="habilidades" class="habilidades">
+            <h2>Habilidades</h2>
+            <div class="imagens">
+                <img src="img/png-transparent-logo-html-html5-removebg-preview.png" alt="HTML">
+                <img src="img/png-transparent-cascading-style-sheets-logo-css3-html-web-development-world-wide-web-blue-angle-web-design-removebg-preview.png" alt="CSS">
+                <img src="img/png-transparent-javascript-logo-angularjs-nodejs-computer-programming-web-development-computer-software-jquery-yellow-removebg-preview.png" alt="JavaScript">
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h2> Projetos</h2>
+            <div class="projeto-carousel">
+                <div class="projeto">
+                    <img src="img/projeto1.png" alt="Projeto1">
+                    <a href="https://devesdrass.github.io/pagina-clinica2/
+                    " target="_blank"><h3>Landing Page Dra. Clara Coelho</h3></a>
+                    <p>Página para apresentação dos serviços e produtos da Clínica Veterinária Clara Coelho.</p>
+                </div>
+                <div class="projeto">
+                    <img src="img/projeto2.png" alt="Projeto2">
+                    <a href="https://devesdrass.github.io/Pagina-de-Login/" target="_blank"><h3>Página de Login</h3></a>
+                    <p>Simples página de login para usabilidade tambem na Clínica em questão.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato"> 
+        <div class="contatos">
+            <h2>Entre em Contato</h2>
+            <div class="info-contato">
+            <p><i class="fa-duotone fa-envelope"></i> Email: esdrasr2011.2@gmail.com</p>
+            <p><i class="fas fa-github"></i> Github: <a href="https://github.com/esdrasjales" target="blank">Esdras Jales</a></p>
+            <p><i class="fas fa-phone"></i> Telefone: (84) 9 9832-6760</p>
+        </div>
+            <form action="#" id="form-contato" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea type="mensagem" id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
